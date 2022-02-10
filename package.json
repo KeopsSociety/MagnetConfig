@@ -11,7 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/KeopsSociety/MagnetConfig.git"
   },
-  "author": "",
+  "keywords": ["Config", "Node", "JavaScript"],
+  "author": "Mansour Boutarbouch Mhaimeur",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KeopsSociety/MagnetConfig/issues"
