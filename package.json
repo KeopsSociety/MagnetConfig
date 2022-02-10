@@ -1,0 +1,26 @@
+{
+  "name": "magnet-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeopsSociety/MagnetConfig.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeopsSociety/MagnetConfig/issues"
+  },
+  "homepage": "https://github.com/KeopsSociety/MagnetConfig#readme",
+  "dependencies": {
+    "convict": "^6.2.1",
+    "convict-format-with-validator": "^6.2.0",
+    "dotenv": "^14.2.0",
+    "js-yaml": "^4.1.0"
+  }
+}
