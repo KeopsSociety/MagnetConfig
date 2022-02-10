@@ -1,5 +1,5 @@
 {
-  "name": "magnet-config",
+  "name": "@keops-society/magnet-config",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
