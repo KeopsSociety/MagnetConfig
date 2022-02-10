@@ -10,7 +10,7 @@ also takes care of command arguments and environment variables with [dotenv](htt
 
 ```bash
 # install locally (recommended)
-npm install magnet-config --save
+npm install @keops-society/magnet-config --save
 ```
 
 ---
