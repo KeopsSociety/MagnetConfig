@@ -4,12 +4,16 @@ MagnetConfig is a Node module that make access to config variables easy and simp
 giving the possibility to validate them against a schema thanks to [convict](https://github.com/mozilla/node-convict),
 also takes care of command arguments and environment variables with [dotenv](https://github.com/motdotla/dotenv)
 
+---
+
 ## Installation
 
 ```bash
 # install locally (recommended)
 npm install magnet-config --save
 ```
+
+---
 
 ## Usage
 
@@ -77,6 +81,7 @@ secret: mySecretKey
 
 To use environment variables or command arguments, see [dotenv repository](https://github.com/motdotla/dotenv/blob/master/README.md#usage) for more information.
 
+
 ### 2 Advanced usage
 
 ```javascript
@@ -108,7 +113,7 @@ console.log('https://' + config.server.url + ':' + config.server.port);
 ```
 
 Try to run your project with some command arguments:
-```javascript
+```bash
 node index.js --port=3000
 ```
 
@@ -221,3 +226,5 @@ module.exports = {
 ```
 
 For more information about schema and validation, check out the [convict repository](https://github.com/mozilla/node-convict/tree/master/packages/convict#usage).
+
+---
