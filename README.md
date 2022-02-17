@@ -18,7 +18,7 @@ npm install @keops-society/magnet-config --save
 ## Usage
 
 - Create a `config` directory in your project
-- Create a `development.yml` file in config directory or any environment you desire
+- Create a `development.yml` file in `config` directory or any environment you desire
 
 
 ### 1 Basic usage
@@ -27,7 +27,7 @@ As early as possible in your application, import and configure magnet-config:
 
 ```javascript
 //import
-const initConfig = require('magnet-config');
+const initConfig = require('@keops-society/magnet-config');
 
 //where is your config files
 const configFolder = path.join(__dirname, 'config');

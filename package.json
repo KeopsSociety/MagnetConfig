@@ -1,7 +1,7 @@
 {
   "name": "@keops-society/magnet-config",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Provide config with yaml files, command line and environment variables",
   "main": "lib/index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/KeopsSociety/MagnetConfig.git"
   },
-  "keywords": ["Config", "Node", "JavaScript"],
+  "keywords": ["config", "yaml", "yml", "validation", "Magnet"],
   "author": "Mansour Boutarbouch Mhaimeur",
   "license": "ISC",
   "bugs": {
